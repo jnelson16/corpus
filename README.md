@@ -94,4 +94,4 @@ The first problem will determine the scripts needed for downloading or otherwise
 
 ## Requirements
 
-Using this corpus requires the [QuantGov library](https://github.com/quantgov/quantgov). 
+Using this corpus requires the [QuantGov library](https://github.com/quantgov/quantgov).

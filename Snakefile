@@ -28,7 +28,7 @@ rule create_wordcount:
 rule create_restriction_count:
     input: 'driver.py'
     output: outpath('data/restrictions.csv')
-    shell: 'quantgov corpus count_occurrences {input} shall must "may not" required prohibited -o {output}'
+    shell: 'quantgov corpus count_occurrences {input} shall must "may not" required prohibited -o {output} --total_label restrictions'
 
 rule create_metadata:
     input:
